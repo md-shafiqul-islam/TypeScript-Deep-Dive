@@ -1,39 +1,65 @@
 # Day 01 — TypeScript Fundamentals
 
-## Overview
+This day focuses on the fundamental TypeScript concepts required to write
+type-safe and maintainable JavaScript applications.
 
-Today I learned the fundamental concepts of TypeScript through Programming Hero Level 2.
-
-The lesson focused on TypeScript's type system, object and function typing, reusable type definitions, and modern JavaScript operators.
-
-## Learning Objectives
-
-- Understand primitive and non-primitive types.
-- Define object properties using TypeScript.
-- Use literal and optional types.
-- Write typed functions.
-- Create reusable type aliases.
-- Understand union and intersection types.
-- Use ternary, nullish coalescing, and optional chaining.
-- Understand nullable, unknown, and never types.
+The goal is to understand how TypeScript describes variables, objects,
+functions, and different possible values before moving into advanced
+features such as generics and utility types.
 
 ## Topics Covered
 
-1. Primitive and Non-Primitive Types
-2. Object, Literal, and Optional Types
-3. Functions in TypeScript
-4. Type Aliases
-5. Union and Intersection Types
-6. Ternary, Nullish Coalescing, and Optional Chaining
-7. Nullable, Unknown, and Never Types
+- Basic Types
+- Arrays
+- Objects
+- Type Inference
+- Explicit Types
+- Functions
+- Function Parameters and Return Types
+- `void`
+- Type Alias
+- Interface
+- Optional Properties
+- Union Types
+- Literal Types
+- Intersection Types
+- `any`
+- `unknown`
+- Type Narrowing
+- Nullable Types
+- Optional Chaining
+- Nullish Coalescing
+- Ternary Operator
+- `never`
 
-## Practice
+## Learning Goals
 
-All examples and exercises are organized in:
+By the end of this day, I should be able to:
 
-- `examples.ts`
-- `exercises.ts`
+- Define variables with appropriate TypeScript types.
+- Type arrays and objects.
+- Understand type inference and explicit typing.
+- Type function parameters and return values.
+- Create reusable types with `type` and `interface`.
+- Work with optional, union, literal, and intersection types.
+- Safely handle `unknown` values.
+- Narrow union types using `typeof`.
+- Handle `null` and `undefined`.
+- Use optional chaining and nullish coalescing.
+- Understand the purpose of `never`.
+
+## Files
+
+- `README.md` — Topic overview and learning goals
+- `notes.md` — Concise revision notes
+- `examples.ts` — Examples of all concepts
+- `exercises.ts` — Practice exercises
 
 ## Key Takeaway
 
-TypeScript helps developers describe the shape of data and catch many type-related mistakes during development.
+TypeScript allows JavaScript code to become more predictable by describing
+what type of data a variable, object, or function is expected to work with.
+
+The most important foundation is:
+
+**Types → Objects → Functions → Unions → Narrowing**
