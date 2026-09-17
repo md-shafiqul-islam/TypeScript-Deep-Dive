@@ -1,4 +1,4 @@
-# Day 02 — Advanced TypeScript Types
+# 02 — Advanced TypeScript Types
 
 This day focuses on TypeScript's reusable and advanced type-system features.
 

@@ -1,4 +1,4 @@
-# Day 01 — TypeScript Fundamentals
+# 01 — TypeScript Fundamentals
 
 This day focuses on the fundamental TypeScript concepts required to write
 type-safe and maintainable JavaScript applications.

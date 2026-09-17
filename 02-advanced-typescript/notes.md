@@ -1,4 +1,4 @@
-# Day 02 — Advanced TypeScript Types
+# 02 — Advanced TypeScript Types
 
 ## 01. Type Assertion
 

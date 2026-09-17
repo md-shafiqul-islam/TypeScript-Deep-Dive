@@ -1,4 +1,4 @@
-# Day 01 — TypeScript Fundamentals
+# 01 — TypeScript Fundamentals
 
 ## 01. Basic Types
 
